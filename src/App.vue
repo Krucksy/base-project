@@ -1,5 +1,5 @@
 <script>
-import { RouterLink, RouterView } from "vue-router";
+import { RouterLink, RouterView } from "vue-router"
 import VueNav from '@/components/Nav.vue'
 import VueFooter from '@/components/Footer.vue'
 import LoadingBar from '@/components/Loadingbar.vue'
@@ -109,6 +109,6 @@ export default {
 </template>
 
 <style lang=scss>
-@import "bootstrap/dist/css/bootstrap.min.css";
 @import "@/assets/style/normalise.css";
+@import "@/assets/style/bases.scss";
 </style>
